@@ -2,22 +2,21 @@
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
-    <file type="web" url="file://$USER_HOME$/Desktop/code/be/pet-project/notification" />
+    <file type="web" url="file://$PROJECT_DIR$/notification" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/demo/pom.xml" />
         <option value="$PROJECT_DIR$/core/pom.xml" />
         <option value="$PROJECT_DIR$/auth/pom.xml" />
         <option value="$PROJECT_DIR$/logging/pom.xml" />
-        <option value="$USER_HOME$/Desktop/code/be/pet-project/pom.xml" />
-        <option value="$USER_HOME$/Desktop/code/be/pet-project/notification/pom.xml" />
+        <option value="$PROJECT_DIR$/notification/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_17_PREVIEW" project-jdk-name="ms-17" project-jdk-type="JavaSDK">
-    <output url="file://$USER_HOME$/Desktop/code/be/pet-project/out" />
+    <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
