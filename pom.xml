@@ -40,5 +40,6 @@
     <module>logging</module>
     <module>core</module>
     <module>auth</module>
+      <module>test</module>
   </modules>
 </project>
