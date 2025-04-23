@@ -1,7 +1,9 @@
 package org.example.core.converter.dto2model;
 
 import org.example.core.dto.ABaseDto;
+import org.example.core.exception.LayerConverterException;
 import org.example.core.model.ABaseModel;
+import org.example.core.util.Constant;
 import org.example.core.util.ValidateUtils;
 import org.springframework.beans.BeanUtils;
 import org.springframework.stereotype.Component;
@@ -38,7 +40,7 @@ public abstract class ADTO2Model<DTO extends ABaseDto, MODEL extends ABaseModel>
             BeanUtils.copyProperties(source, model);
             return model;
         } catch (Exception e) {
-            throw new RuntimeException();
+            throw new LayerConverterException(Constant.ERROR_CODE.ERROR_CODE_CONVERTER, e.getMessage());
         }
     }
 }

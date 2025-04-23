@@ -1,17 +1,20 @@
 package org.example.core.model;
 
 import jakarta.persistence.Column;
+import jakarta.persistence.EntityListeners;
 import jakarta.persistence.MappedSuperclass;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.example.core.audit.AuditListener;
 
 @MappedSuperclass
 @Data
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
+@EntityListeners(AuditListener.class)
 public class ABaseModel {
 
     @Column(name = "CREATE_BY")

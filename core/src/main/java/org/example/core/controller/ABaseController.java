@@ -31,7 +31,7 @@ public abstract class ABaseController<REQUEST extends ABaseRequest, DTO extends 
     }
 
     @PostMapping("/update")
-    public ResponseEntity<DTO> update(@RequestBody REQUEST request) {
+    public ResponseEntity<DTO> update(@RequestBody REQUEST request) throws InterruptedException {
         return ResponseEntity.ok(service.update(request));
     }
 

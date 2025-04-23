@@ -12,6 +12,14 @@ public class ValidateUtils {
         return input == null || input.isEmpty();
     }
 
+    public static boolean isNull(Long input) {
+        return input == null;
+    }
+
+    public static boolean isNull(String input) {
+        return input == null || input.isEmpty();
+    }
+
     public static boolean isNotNull(Collection input) {
         return !isNull(input);
     }

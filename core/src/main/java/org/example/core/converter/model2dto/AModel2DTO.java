@@ -40,7 +40,7 @@ public abstract class AModel2DTO<MODEL extends ABaseModel, DTO extends ABaseDto>
             BeanUtils.copyProperties(source, dto);
             return dto;
         } catch (Exception e) {
-            throw new LayerConverterException(Constant.ERROR_CODE.ERROR_CODE_CONVERTER, "loi o day");
+            throw new LayerConverterException(Constant.ERROR_CODE.ERROR_CODE_CONVERTER, e.getMessage());
         }
     }
 

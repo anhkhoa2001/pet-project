@@ -11,6 +11,6 @@ public interface IBaseService<REQUEST extends ABaseRequest, DTO extends ABaseDto
     DTO getById(ID id);
     List<DTO> getAll();
     void delete(ID id);
-    DTO update(REQUEST request);
+    DTO update(REQUEST request) throws InterruptedException;
     DTO create(REQUEST request);
 }
