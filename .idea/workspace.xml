@@ -6,22 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="29aec2cf-8008-4cb4-8c48-5b448be0f08d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/example/core/CoreApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/example/core/controller/ABaseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/example/core/controller/ABaseController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/example/core/converter/dto2model/ADTO2Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/example/core/converter/dto2model/ADTO2Model.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/example/core/converter/model2dto/AModel2DTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/example/core/converter/model2dto/AModel2DTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/example/core/middleware/WrapperFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/example/core/middleware/WrapperFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/example/core/model/ABaseModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/example/core/model/ABaseModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/example/core/request/ABaseRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/example/core/request/ABaseRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/example/core/service/IBaseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/example/core/service/IBaseService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/example/core/service/impl/ABaseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/example/core/service/impl/ABaseService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/example/core/util/ValidateUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/example/core/util/ValidateUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/src/main/java/com/example/test/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/com/example/test/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/src/main/java/com/example/test/converter/model2dto/LogModel2DTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/com/example/test/converter/model2dto/LogModel2DTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/src/main/java/com/example/test/model/LogModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/com/example/test/model/LogModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/src/main/java/com/example/test/request/LogRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/com/example/test/request/LogRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/src/main/java/com/example/test/service/impl/LogServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/com/example/test/service/impl/LogServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/auth/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/src/main/java/com/example/demo/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth/src/main/java/com/example/auth/AuthApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/auth/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/example/core/config/WebConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/example/core/middleware/WrapResponseHandler.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,8 +88,8 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.4816092&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;4b645d1cdf871a1b1abc42947f29a01b&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;6bbefb6fe3eab0787fff0bc24f8cebac&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -110,7 +99,7 @@
       <recent name="$PROJECT_DIR$/.." />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.Application">
+  <component name="RunManager" selected="Spring Boot.AuthApplication">
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="test" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.test.Application" />
@@ -124,16 +113,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CoreApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="core" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.core.CoreApplication" />
+    <configuration name="AuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="auth" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.auth.AuthApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="auth" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.DemoApplication" />
+    <configuration name="CoreApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="core" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.core.CoreApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -182,12 +171,26 @@
       <workItem from="1745131186262" duration="6911000" />
       <workItem from="1745138151410" duration="3922000" />
       <workItem from="1745241063875" duration="8334000" />
-      <workItem from="1745415168656" duration="6551000" />
+      <workItem from="1745415168656" duration="7238000" />
+      <workItem from="1745495472748" duration="8175000" />
+      <workItem from="1745508029852" duration="502000" />
+      <workItem from="1745508539384" duration="808000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/core/src/main/java/org/example/core/middleware/LoggingFilter.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
